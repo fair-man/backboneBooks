@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>backbone books</title>
+    <link rel="stylesheet" href="styles/css/main.css">
+    <script src="http://localhost:35729/livereload.js"></script>
+</head>
+<body>
+<div class="book-form">
+    <div class="container">
+        <div class="row">
+            <form id="book" role="form">
+                <div class="form-group col-lg-6">
+                    <label for="bookFileUpload">Картинка</label>
+                    <input type="file" class="form-control" id="bookFileUpload" placeholder="Выберите картинку">
+                </div>
+                <div class="form-group col-lg-6">
+                    <label for="bookTitle">Название</label>
+                    <input type="text" class="form-control" id="bookTitle" placeholder="Введите название книги">
+                </div>
+                <div class="form-group col-lg-6">
+                    <label for="bookAuthor">Автор</label>
+                    <input type="text" class="form-control" id="bookAuthor" placeholder="Введите имя автора">
+                </div>
+                <div class="form-group col-lg-6">
+                    <label for="bookDate">Дата</label>
+                    <input type="text" class="form-control" id="bookDate" placeholder="Введите дату добавления">
+                </div>
+                <div class="form-group col-lg-6">
+                    <label for="bookDescription">Автор</label>
+                    <textarea type="text" class="form-control" id="bookDescription" placeholder="Введите описание книги"></textarea>
+                </div>
+                <div class="form-group col-lg-12">
+                    <button type="submit" class="btn btn-default">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="books">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 books-item">
+                <div class="row">
+                    <div class="col-lg-4"><i class="glyphicon glyphicon glyphicon-book"></i></div>
+                    <div class="col-lg-7">
+                        <div>Title</div>
+                        <div>Author</div>
+                        <div>Date</div>
+                        <div>Description</div>
+                    </div>
+                    <div class="col-lg-1"><i class="glyphicon glyphicon-remove"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>
+</body>
+</html>

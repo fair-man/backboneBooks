@@ -1,0 +1,26 @@
+{
+  "name": "backboneBooks",
+  "authors": [
+    "fair-man <ruslan.tukalenko@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.1.1",
+    "underscore": "^1.8.3",
+    "backbone": "^1.3.3",
+    "handlebars": "^4.0.5",
+    "bootstrap": "^3.3.7",
+    "requirejs": "^2.3.2"
+  }
+}
