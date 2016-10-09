@@ -6724,23 +6724,23 @@ button.close {
 .book-form {
   margin-bottom: 30px;
 }
-.books .books-item {
+.books-block .books-item {
   padding: 10px 10px;
 }
-.books .books-item .row {
+.books-block .books-item .row {
   padding: 20px 10px;
   margin-left: 0;
   margin-right: 0;
   border: 1px solid #ccc;
 }
-.books .glyphicon-book {
+.books-block .glyphicon-book {
   font-size: 170px;
 }
-.books .glyphicon-remove {
+.books-block .glyphicon-remove {
   font-size: 20px;
   color: #d9534f;
   cursor: pointer;
 }
-.books .glyphicon-remove:hover {
+.books-block .glyphicon-remove:hover {
   color: #c53f3b;
 }
